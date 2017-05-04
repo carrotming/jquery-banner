@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#oUl{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+#oUl li{
+    /*width: 600px;*/
+    /*height: 300px;*/
+    position: absolute;
+    list-style: none;
+}
+span{
+    width: 76px;
+    height: 112px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-10%);
+    display: none;
+}
+span:nth-of-type(1){
+    left: 250px;
+
+    background: url("../images1/prev.png") no-repeat;
+}
+span:nth-of-type(2){
+    right: 250px;
+    background: url("../images1/next.png") no-repeat;
+}

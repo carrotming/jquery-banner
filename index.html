@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery轮播图插件</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<ul id="oUl">
+    <li><img src="images1/slidepic1.jpg" alt=""/></li>
+    <li><img src="images1/slidepic2.jpg" alt=""/></li>
+    <li><img src="images1/slidepic3.jpg" alt=""/></li>
+    <li><img src="images1/slidepic4.jpg" alt=""/></li>
+    <li><img src="images1/slidepic5.jpg" alt=""/></li>
+    <li><img src="images1/slidepic6.jpg" alt=""/></li>
+</ul>
+<span id="prev"></span>
+<span id="next"></span>
+
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+    $(function () {
+        $('#oUl').myBanner(
+            //数组控制每一张图片具体位置,透明度,大小. simple默认为true,移入移出照片现在控制器,false为一直显示
+             /*[{width: 800, height: 500, zIndex: 7, opacity: 1, left: 0, top: 300},
+             {width: 700, height: 400, zIndex: 6, opacity: 0.2, left: 300, top: 200},
+             {width: 600, height: 300, zIndex: 3, opacity: 0.2, left: 400, top: 120},
+             {width: 500, height: 200, zIndex: 1, opacity: 0.2, left: 0, top: 0},
+             {width: 600, height: 300, zIndex: 3, opacity: 0.2, left: -400, top: 120},
+             {width: 700, height: 400, zIndex: 6, opacity: 0.2, left: -300, top: 200},
+             {simple:false}]*/
+        );
+     })
+</script>
+</body>
+</html>

@@ -8,12 +8,12 @@
  html布局结构
  
  ul id="oUl"
-    li><img src="images1/slidepic1.jpg" alt=""/></li
-    <li><img src="images1/slidepic2.jpg" alt=""/></li
-    <li><img src="images1/slidepic3.jpg" alt=""/></li
-    <li><img src="images1/slidepic4.jpg" alt=""/></li
-    <li><img src="images1/slidepic5.jpg" alt=""/></li
-    <li><img src="images1/slidepic6.jpg" alt=""/></li
+    li>img src="images1/slidepic1.jpg" alt=""/></li
+    li>img src="images1/slidepic2.jpg" alt=""/></li
+    li>img src="images1/slidepic3.jpg" alt=""/></li
+    liimg src="images1/slidepic4.jpg" alt=""/></li
+    li>img src="images1/slidepic5.jpg" alt=""/></li
+    li><img src="images1/slidepic6.jpg" alt=""/></li
 /ul
 span id="prev"></span
 span id="next"></span

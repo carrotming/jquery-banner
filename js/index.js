@@ -1,6 +1,4 @@
-/**
- * Created by 704664846 on 2017/5/4.
- */
+
 (function ($, window, undefined) {
     $.fn.myBanner = function (option) {
         var settings = $.extend(
